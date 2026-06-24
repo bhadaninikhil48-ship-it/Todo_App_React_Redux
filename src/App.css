@@ -1,0 +1,14 @@
+body{
+    margin:0;
+    padding:0;
+    background:#000;
+    font-family:'Segoe UI', sans-serif;
+}
+
+.app{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:flex-start;
+    padding-top:50px;
+}
