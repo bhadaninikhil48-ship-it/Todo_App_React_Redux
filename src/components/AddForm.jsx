@@ -17,7 +17,7 @@ export default function AddForm(){
 
         <>
         <form className="todo-form" action="" onSubmit={handleSubmit}>
-            <input className="todo-input" type="text" value={task} onChange={(e)=>setTask(e.target.value)}/>
+            <input className="todo-input" type="text" value={task} onChange={(e)=>setTask(e.target.value)} required/>
             <button className="add-btn">Add-Task</button>
         </form>
         </>
